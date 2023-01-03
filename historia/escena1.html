@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escena 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1> <p>Diana y los 3 encargos</p></h1>
+    <p>Era hace mucho tiempo, una niña llamada Diana, que vivía en el campo, que creció con su madre y abuela toda su infancia,
+       pero con el paso del tiempo su abuela se mudo y no pudo volverla a ver.</p>
+    <svg width="100%" height="100vh">
+      <rect x="0" y="0" class="fondo" width="1600" height="600" />
+      <rect y="256" class="suelo" width="1600" height="644" />
+      <g id="Diana">
+        <polygon
+          id="ropa"
+          class="ropa_diana"
+          points="155,360 80,490 230,490 	"
+        />
+        <g id="cara">
+          <circle class="cabeza" cx="155" cy="340" r="50" />
+          <path
+            d="M155.5,288c27.85,0,50.5,22.65,50.5,50.5S183.35,389,155.5,389S105,366.35,105,338.5S127.65,288,155.5,288 M155.5,287
+			c-28.44,0-51.5,23.06-51.5,51.5s23.06,51.5,51.5,51.5s51.5-23.06,51.5-51.5S183.94,287,155.5,287L155.5,287z"
+          />
+        </g>
+        <ellipse id="ojo" cx="137" cy="326" rx="3" ry="8" />
+        <ellipse id="ojo" cx="173" cy="326" rx="3" ry="8" />
+        <path
+          id="sonrisa"
+          class="sonrisas"
+          d="M121.47,359.65L121.47,359.65c20.17,11.34,44.61,12.11,65.45,2.07l4.29-2.07"
+        >
+          <animate
+            attributeType="CSS"
+            attributeName="opacity"
+            from="1"
+            to="0"
+            dur="5s"
+            repeatCount="indefinite"
+          />
+        </path>
+        <path
+          id="triste"
+          class="cara_triste"
+          d="M121.47,368.74L121.47,368.74c20.17-11.34,44.61-12.11,65.45-2.07l4.29,2.07"
+        >
+          <animate
+            attributeType="CSS"
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="5s"
+            repeatCount="indefinite"
+          />
+        </path>
+        <g id="pies">
+          <rect id="pierna" x="134" y="493" width="7" height="36" />
+          <rect id="pierna" x="170" y="493" width="7" height="36" />
+          <rect id="pie" x="170" y="521" width="18" height="8" />
+          <rect id="pie" x="123" y="521" width="18" height="8" />
+        </g>
+        <path
+          id="cabello"
+          d="M155.5,287c0,0-70.5-4-51.5,103
+		C104,390,110,328,155.5,287z"
+        />
+        <path
+          id="cabello"
+          d="M155.75,287c0,0,70.5-4,51.5,103C207.25,390,201.25,328,155.75,287z"
+        />
+      </g>
+      <g id="Mama">
+        <g id="pies">
+          <rect id="pierna" x="378" y="443" width="7" height="80" />
+          <rect id="pierna" x="414" y="443" width="7" height="80" />
+          <rect id="pie" x="414" y="515" width="18" height="8" />
+          <rect id="pie" x="363.5" y="515" width="18" height="8" />
+        </g>
+        <g id="cara">
+          <circle class="cabeza" cx="400" cy="180.5" r="51" />
+          <path
+            d="M400,130c27.85,0,50.5,22.65,50.5,50.5S427.85,231,400,231s-50.5-22.65-50.5-50.5S372.15,130,400,130 M400,129
+			c-28.44,0-51.5,23.06-51.5,51.5S371.56,232,400,232s51.5-23.06,51.5-51.5S428.44,129,400,129L400,129z"
+          />
+        </g>
+        <ellipse id="ojo" cx="381" cy="168" rx="3" ry="8" />
+        <ellipse id="ojo" cx="418" cy="168" rx="3" ry="8" />
+        <path
+          id="sonrisa"
+          class="sonrisas"
+          d="M365.97,201.65L365.97,201.65
+		c20.17,11.34,44.61,12.11,65.45,2.07l4.29-2.07"
+        />
+        <g id="cabello">
+          <path
+            id="cabello"
+            d="M400,129c0,0-70.5-4-51.5,103
+			C348.5,232,354.5,170,400,129z"
+          />
+          <path
+            id="cabello"
+            d="M400.25,129c0,0,70.5-4,51.5,103
+			C451.75,232,445.75,170,400.25,129z"
+          />
+        </g>
+        <path
+          id="torso"
+          class="ropa_mama"
+          d="M433.5,384.5h-67v-119c0-18.5,15-33.5,33.5-33.5h0c18.5,0,33.5,15,33.5,33.5V384.5z"
+        />
+        <polygon
+          id="falda"
+          class="falda_mama"
+          points="455,443.5 345,443.5 367,384.5 433,384.5 	"
+        />
+      </g>
+      <g id="Abuela">
+        <g id="pies">
+          <rect id="pierna" x="601" y="443" width="7" height="80">
+            <animate
+              attributeType="CSS"
+              attributeName="opacity"
+              from="1"
+              to="0"
+              dur="5s"
+              repeatCount="indefinite"
+            />
+          </rect>
+          <rect id="pierna" x="637" y="443" width="7" height="80">
+            <animate
+              attributeType="CSS"
+              attributeName="opacity"
+              from="1"
+              to="0"
+              dur="5s"
+              repeatCount="indefinite"
+            />
+          </rect>
+          <rect id="pie" x="637" y="515" width="18" height="8">
+            <animate
+              attributeType="CSS"
+              attributeName="opacity"
+              from="1"
+              to="0"
+              dur="5s"
+              repeatCount="indefinite"
+            />
+          </rect>
+          <rect id="pie" x="586" y="515" width="18" height="8">
+            <animate
+              attributeType="CSS"
+              attributeName="opacity"
+              from="1"
+              to="0"
+              dur="5s"
+              repeatCount="indefinite"
+            />
+          </rect>
+        </g>
+        <g id="cara">
+          <circle class="cabeza" cx="622" cy="204" r="51">
+            <animate
+              attributeType="CSS"
+              attributeName="opacity"
+              from="1"
+              to="0"
+              dur="5s"
+              repeatCount="indefinite"
+            />
+          </circle>
+          <path
+            d="M622.5,154c27.85,0,50.5,22.65,50.5,50.5S650.35,255,622.5,255S572,232.35,572,204.5S594.65,154,622.5,154 M622.5,153
+			c-28.44,0-51.5,23.06-51.5,51.5s23.06,51.5,51.5,51.5s51.5-23.06,51.5-51.5S650.94,153,622.5,153L622.5,153z"
+          >
+            <animate
+              attributeType="CSS"
+              attributeName="opacity"
+              from="1"
+              to="0"
+              dur="5s"
+              repeatCount="indefinite"
+            />
+          </path>
+        </g>
+        <ellipse id="ojo" cx="604" cy="192" rx="3" ry="8">
+          <animate
+            attributeType="CSS"
+            attributeName="opacity"
+            from="1"
+            to="0"
+            dur="5s"
+            repeatCount="indefinite"
+          />
+        </ellipse>
+        <ellipse id="ojo" cx="640" cy="192" rx="3" ry="8">
+          <animate
+            attributeType="CSS"
+            attributeName="opacity"
+            from="1"
+            to="0"
+            dur="5s"
+            repeatCount="indefinite"
+          />
+        </ellipse>
+        <path
+          id="sonrisa"
+          class="sonrisas"
+          d="M588.47,225.65L588.47,225.65
+		c20.17,11.34,44.61,12.11,65.45,2.07l4.29-2.07"
+        >
+          <animate
+            attributeType="CSS"
+            attributeName="opacity"
+            from="1"
+            to="0"
+            dur="5s"
+            repeatCount="indefinite"
+          />
+        </path>
+        <path
+          id="cabello"
+          class="cabello_abuela"
+          d="M622.5,153c0,0-70.5-4-51.5,103
+		C571,256,577,194,622.5,153z"
+        >
+          <animate
+            attributeType="CSS"
+            attributeName="opacity"
+            from="1"
+            to="0"
+            dur="5s"
+            repeatCount="indefinite"
+          />
+        </path>
+        <path
+          id="cabello"
+          class="cabello_abuela"
+          d="M622.75,153c0,0,70.5-4,51.5,103
+		C674.25,256,668.25,194,622.75,153z"
+        >
+          <animate
+            attributeType="CSS"
+            attributeName="opacity"
+            from="1"
+            to="0"
+            dur="5s"
+            repeatCount="indefinite"
+          />
+        </path>
+        <path
+          id="torso"
+          class="cuerpo_abuela"
+          d="M656,384.5h-67V289c0-18.5,15-33.5,33.5-33.5
+		h0c18.5,0,33.5,15,33.5,33.5V384.5z"
+        >
+          <animate
+            attributeType="CSS"
+            attributeName="opacity"
+            from="1"
+            to="0"
+            dur="5s"
+            repeatCount="indefinite"
+          />
+        </path>
+        <polygon
+          id="falda"
+          class="falda_abuela"
+          points="677,443 567,443 
+		589,384 655,384 	"
+        >
+          <animate
+            attributeType="CSS"
+            attributeName="opacity"
+            from="1"
+            to="0"
+            dur="5s"
+            repeatCount="indefinite"
+          />
+        </polygon>
+        <g id="lentes">
+          <polygon
+            id="lente"
+            class="lentes"
+            points="613,202 594,202 
+			594,181 613,181 613,192 "
+          >
+            <animate
+              attributeType="CSS"
+              attributeName="opacity"
+              from="1"
+              to="0"
+              dur="5s"
+              repeatCount="indefinite"
+            />
+          </polygon>
+          <rect
+            id="lente"
+            x="630"
+            y="182"
+            class="lentes"
+            width="18"
+            height="21"
+          >
+            <animate
+              attributeType="CSS"
+              attributeName="opacity"
+              from="1"
+              to="0"
+              dur="5s"
+              repeatCount="indefinite"
+            />
+          </rect>
+          <path
+            id="nariz"
+            class="lentes"
+            d="M630.67,192L630.67,192c-5.24-2.24-11.14-2.36-16.47-0.33l-0.87,0.33"
+          >
+            <animate
+              attributeType="CSS"
+              attributeName="opacity"
+              from="1"
+              to="0"
+              dur="5s"
+              repeatCount="indefinite"
+            />
+          </path>
+        </g>
+      </g>
+      <rect
+        x="177"
+        y="383"
+        transform="matrix(0.866 -0.5 0.5 0.866 -164.6464 158.5312)"
+        width="73"
+        height="7"
+      />
+      <rect
+        x="60"
+        y="385"
+        transform="matrix(0.866 0.5 -0.5 0.866 207.1785 3.7991)"
+        width="73"
+        height="7"
+      />
+      <rect x="30" y="104" class="casa" width="249" height="152" />
+      <polygon class="techo" points="232,70 71,70 29,103 278,103 " />
+      <rect x="47" y="124" class="ventanas" width="56" height="44" />
+      <rect x="129" y="190" class="puerta" width="50" height="65.18" />
+      <rect x="204" y="124" class="ventanas" width="56" height="44" />
+      <circle cx="135" cy="223" r="2.5" />
+      <ellipse class="nubes" cx="377" cy="49" rx="87" ry="43" />
+      <ellipse class="nubes" cx="734" cy="128" rx="57" ry="28" />
+      <ellipse class="nubes" cx="586" cy="64" rx="57" ry="28" />
+    </svg>
+  
+    <br>
+    <a href="escena2.html">Siguiente</a>
+    <br />
+    <a href="escena1.html">Anterior</a>
+  </body>
+</html>

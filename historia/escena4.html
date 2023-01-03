@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escena 4</title>
+  </head>
+
+  <body>
+     <p> Diana estuvo confiada con los encargos que le indico el señor, y sin darle vuelta al asunto
+       empezó a hacerlos. Diana a un gatito del árbol y este inmediatamente se encariño con ella, 
+       Diana limpio la carretera e impidió que una moto se resbalara, y finalmente, a lado de la carretera, plantó las semillas.</p>
+    <svg width="100%" height="120vh">
+      <g id="fondo">
+        <rect fill="#00CCFF" width="1920" height="1080" />
+        <rect id="suelo" y="643" fill="#38FF00" width="1920" height="437" />
+        <rect x="815" y="643" fill="#606060" width="291" height="437" />
+      </g>
+      <g id="arbol">
+        <rect x="471.9" y="333.3" fill="#632800" width="53.8" height="311" />
+        <circle fill="#00CC33" cx="500.1" cy="325.1" r="126" />
+      </g>
+
+      <g id="Diana">
+        <polygon
+          id="ropa"
+          fill="#001FFF"
+          stroke="#000000"
+          stroke-miterlimit="10"
+          points="517.6,379.3 472.7,457 562.4,457"
+        >
+          <animate attributeName="opacity" from="0" to="1" dur="3s" />
+        </polygon>
+        <g id="cara">
+          <circle fill="#FFCC99" cx="517.6" cy="367" r="30">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </circle>
+        </g>
+        <ellipse id="ojo" cx="506.8" cy="360" rx="2.1" ry="4.8">
+          <animate attributeName="opacity" from="0" to="1" dur="3s" />
+        </ellipse>
+        <ellipse id="ojo" cx="528.3" cy="360" rx="2.1" ry="4.8">
+          <animate attributeName="opacity" from="0" to="1" dur="3s" />
+        </ellipse>
+        <path
+          id="sonrisa"
+          fill="none"
+          stroke="#000000"
+          stroke-miterlimit="10"
+          d="M497.7,379.3L497.7,379.3c11.7,6.6,26,7.1,38.1,1.2 l2.5-1.2"
+        >
+          <animate attributeName="opacity" from="0" to="1" dur="3s" />
+        </path>
+
+        <g id="pies">
+          <rect id="pierna" x="505" y="457" width="4.1" height="21">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </rect>
+          <rect id="pierna" x="526" y="457" width="4.1" height="21">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </rect>
+          <rect id="pie" x="526" y="473.3" width="10.5" height="4.7">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </rect>
+          <rect id="pie" x="498.6" y="473.3" width="10.5" height="4.7">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </rect>
+        </g>
+
+        <path
+          id="cabello"
+          d="M517.6,337c0,0-41.1-2.3-30,60 C487.6,397,491.1,360.9,517.6,337z"
+        >
+          <animate attributeName="opacity" from="0" to="1" dur="3s" />
+        </path>
+        <path
+          id="cabello"
+          d="M517.7,337c0,0,41.1-2.3,30,60C547.7,397,544.2,360.9,517.7,337z"
+        >
+          <animate attributeName="opacity" from="0" to="1" dur="3s" />
+        </path>
+
+        <g id="gato">
+          <g id="cara">
+            <rect x="449.7" y="401.8" fill="#FF6600" width="37.3" height="26.2">
+              <animate attributeName="opacity" from="0" to="1" dur="3s" />
+            </rect>
+            <polygon
+              fill="#FF6600"
+              points="458.5,386.8 449.9,401.8 467.2,401.8 "
+            >
+              <animate attributeName="opacity" from="0" to="1" dur="3s" />
+            </polygon>
+            <polygon fill="#FF6600" points="478,386.8 469.4,401.8 486.7,401.8 ">
+              <animate attributeName="opacity" from="0" to="1" dur="3s" />
+            </polygon>
+          </g>
+          <g id="ojo">
+            <circle fill="#FFFFFF" cx="458.3" cy="412.7" r="5.4">
+              <animate attributeName="opacity" from="0" to="1" dur="3s" />
+            </circle>
+            <circle fill="#00CCFF" cx="458.3" cy="412.7" r="3.8">
+              <animate attributeName="opacity" from="0" to="1" dur="3s" />
+            </circle>
+            <circle cx="458.3" cy="412.7" r="2.2">
+              <animate attributeName="opacity" from="0" to="1" dur="3s" />
+            </circle>
+          </g>
+          <g id="ojo">
+            <circle fill="#FFFFFF" cx="477.4" cy="412.7" r="5.4">
+              <animate attributeName="opacity" from="0" to="1" dur="3s" />
+            </circle>
+            <circle fill="#00CCFF" cx="477.4" cy="412.7" r="3.8">
+              <animate attributeName="opacity" from="0" to="1" dur="3s" />
+            </circle>
+            <circle cx="477.4" cy="412.7" r="2.2">
+              <animate attributeName="opacity" from="0" to="1" dur="3s" />
+            </circle>
+          </g>
+          <polygon id="nariz" points="467.9,422.2 464.7,416.7 471,416.7">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </polygon>
+        </g>
+      </g>
+
+      <g id="Diana2">
+        <polygon
+          id="ropa"
+          fill="#001FFF"
+          stroke="#000000"
+          stroke-miterlimit="10"
+          points="1163.3,616.5 1116.1,698.3 1210.5,698.3"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="3s"
+          />
+        </polygon>
+        <g id="cara">
+          <circle fill="#FFCC99" cx="1163.3" cy="603.6" r="31.6">
+            <animate attributeName="opacity" from="0" to="1" end="3s" />
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="3s"
+              begin="3s"
+            />
+          </circle>
+        </g>
+        <ellipse id="ojo" cx="1152" cy="596.3" rx="2.3" ry="5.1">
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="3s"
+          />
+        </ellipse>
+        <ellipse id="ojo" cx="1174.6" cy="596.3" rx="2.3" ry="5.1">
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="3s"
+          />
+        </ellipse>
+        <path
+          id="sonrisa"
+          fill="none"
+          stroke="#000000"
+          stroke-miterlimit="10"
+          d="M1142.4,616.6L1142.4,616.6c12.4,7,27.4,7.4,40.2,1.3l2.6-1.3"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="3s"
+          />
+        </path>
+
+        <g id="pies">
+          <rect id="pierna" x="1150.1" y="698.4" width="4.3" height="22.1">
+            <animate attributeName="opacity" from="0" to="1" end="3s" />
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="3s"
+              begin="3s"
+            />
+          </rect>
+          <rect id="pierna" x="1172.2" y="698.4" width="4.3" height="22.1">
+            <animate attributeName="opacity" from="0" to="1" end="3s" />
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="3s"
+              begin="3s"
+            />
+          </rect>
+          <rect id="pie" x="1172.2" y="715.6" width="11" height="4.9">
+            <animate attributeName="opacity" from="0" to="1" end="3s" />
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="3s"
+              begin="3s"
+            />
+          </rect>
+          <rect id="pie" x="1143.4" y="715.6" width="11" height="4.9">
+            <animate attributeName="opacity" from="0" to="1" end="3s" />
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="3s"
+              begin="3s"
+            />
+          </rect>
+        </g>
+        <path
+          id="cabello"
+          d="M1163.3,572c0,0-43.2-2.5-31.6,63.2 C1131.7,635.2,1135.4,597.2,1163.3,572z"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="3s"
+          />
+        </path>
+        <path
+          id="cabello"
+          d="M1163.5,572c0,0,43.2-2.5,31.6,63.2 C1195.1,635.2,1191.4,597.2,1163.5,572z"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="3s"
+          />
+        </path>
+
+        <rect
+          id="rama"
+          x="1133"
+          y="639.4"
+          fill="#722E00"
+          width="9.1"
+          height="101.4"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="3s"
+          />
+        </rect>
+
+        <rect
+          id="rama"
+          x="1249.8"
+          y="671.2"
+          fill="#722E00"
+          width="104.4"
+          height="10.6"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="3s"
+          />
+        </rect>
+        <polygon
+          id="rama"
+          fill="#722E00"
+          points="1265,619 1248.4,619 1213.6,711.3 1230.2,711.3"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="3s"
+          />
+        </polygon>
+        <polygon
+          id="rama"
+          fill="#722E00"
+          points="1333.3,724.8 1221.3,699 1221.3,680.9 1333.3,706.6"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="3s"
+          />
+        </polygon>
+      </g>
+
+      <g id="motociclista">
+        <rect id="motor" x="928" y="880" fill="#0033FF" width="66" height="115">
+          <animate attributeName="opacity" from="0" to="1" end="4s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="4s"
+          />
+        </rect>
+        <rect id="llanta" x="949" y="937" width="24" height="103">
+          <animate attributeName="opacity" from="0" to="1" end="4s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="4s"
+          />
+        </rect>
+        <rect
+          id="volante"
+          x="893"
+          y="868"
+          fill="#0033FF"
+          width="137"
+          height="12"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="4s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="4s"
+          />
+        </rect>
+        <rect id="foco" x="946" y="891" fill="#FFFFFF" width="31" height="31">
+          <animate attributeName="opacity" from="0" to="1" end="4s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="4s"
+          />
+        </rect>
+        <g id="casco">
+          <circle fill="#0033FF" cx="960.5" cy="791.5" r="31.5">
+            <animate attributeName="opacity" from="0" to="1" end="4s" />
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="3s"
+              begin="4s"
+            />
+          </circle>
+          <rect x="937" y="783" width="49" height="17">
+            <animate attributeName="opacity" from="0" to="1" end="4s" />
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="3s"
+              begin="4s"
+            />
+          </rect>
+        </g>
+        <rect id="cuerpo" x="928" y="823" width="66" height="45">
+          <animate attributeName="opacity" from="0" to="1" end="4s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="4s"
+          />
+        </rect>
+        <rect id="brazo" x="994" y="823" width="70" height="11">
+          <animate attributeName="opacity" from="0" to="1" end="4s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="4s"
+          />
+        </rect>
+        <ellipse id="mano" cx="1067" cy="828.5" rx="8" ry="7.5">
+          <animate attributeName="opacity" from="0" to="1" end="4s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="4s"
+          />
+        </ellipse>
+        <rect id="pulgar" x="1061" y="813" width="6" height="13">
+          <animate attributeName="opacity" from="0" to="1" end="4s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="4s"
+          />
+        </rect>
+        <polygon id="brazo" points="893,868 905,868 928,837 928,823">
+          <animate attributeName="opacity" from="0" to="1" end="4s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="4s"
+          />
+        </polygon>
+      </g>
+
+      <g id="Diana3">
+        <polygon
+          id="ropa"
+          fill="#001FFF"
+          stroke="#000000"
+          stroke-miterlimit="10"
+          points="1645.7,592.1 1605.3,662.1 1686.1,662.1"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="7s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="7s"
+          />
+        </polygon>
+        <g id="cara">
+          <circle fill="#FFCC99" cx="1645.7" cy="581" r="27">
+            <animate attributeName="opacity" from="0" to="1" end="7s" />
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="3s"
+              begin="7s"
+            />
+          </circle>
+        </g>
+        <ellipse id="ojo" cx="1636.1" cy="574.8" rx="1.9" ry="4.3">
+          <animate attributeName="opacity" from="0" to="1" end="7s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="7s"
+          />
+        </ellipse>
+        <ellipse id="ojo" cx="1655.4" cy="574.8" rx="1.9" ry="4.3">
+          <animate attributeName="opacity" from="0" to="1" end="7s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="7s"
+          />
+        </ellipse>
+        <path
+          id="sonrisa"
+          fill="none"
+          stroke="#000000"
+          stroke-miterlimit="10"
+          d="M1627.9,592.1L1627.9,592.1c10.6,6,23.4,6.4,34.3,1.1l2.3-1.1"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="7s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="7s"
+          />
+        </path>
+
+        <g id="pies">
+          <rect id="pierna" x="1634.5" y="662.1" width="3.7" height="18.9">
+            <animate attributeName="opacity" from="0" to="1" end="7s" />
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="3s"
+              begin="7s"
+            />
+          </rect>
+          <rect id="pierna" x="1653.4" y="662.1" width="3.7" height="18.9">
+            <animate attributeName="opacity" from="0" to="1" end="7s" />
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="3s"
+              begin="7s"
+            />
+          </rect>
+          <rect id="pie" x="1653.4" y="676.8" width="9.4" height="4.2">
+            <animate attributeName="opacity" from="0" to="1" end="7s" />
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="3s"
+              begin="7s"
+            />
+          </rect>
+          <rect id="pie" x="1628.7" y="676.8" width="9.4" height="4.2">
+            <animate attributeName="opacity" from="0" to="1" end="7s" />
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="3s"
+              begin="7s"
+            />
+          </rect>
+        </g>
+        <path
+          id="cabello"
+          d="M1645.7,554c0,0-37-2.1-27,54 C1618.7,608.1,1621.9,575.5,1645.7,554z"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="7s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="7s"
+          />
+        </path>
+        <path
+          id="cabello"
+          d="M1645.9,554c0,0,37-2.1,27,54 C1672.9,608.1,1669.7,575.5,1645.9,554z"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="7s" />
+          <animate
+            attributeName="opacity"
+            from="0"
+            to="1"
+            dur="3s"
+            begin="7s"
+          />
+        </path>
+        <g id="regadera">
+          <rect x="1667" y="616" fill="#999999" width="28" height="28">
+            <animate attributeName="opacity" from="0" to="1" end="7s" />
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="3s"
+              begin="7s"
+            />
+          </rect>
+          <polygon fill="#999999" points="1714,614 1710,609 1695,616 1695,623">
+            <animate attributeName="opacity" from="0" to="1" end="7s" />
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="3s"
+              begin="7s"
+            />
+          </polygon>
+          <circle cx="1709" cy="613" r="2">
+            <animate attributeName="opacity" from="0" to="1" end="7s" />
+            <animate
+              attributeName="opacity"
+              from="0"
+              to="1"
+              dur="3s"
+              begin="7s"
+            />
+          </circle>
+        </g>
+      </g>
+
+      <ellipse fill="#993300" cx="1536.5" cy="683.5" rx="38.5" ry="17.5">
+        <animate attributeName="opacity" from="0" to="1" end="7s" />
+        <animate attributeName="opacity" from="0" to="1" dur="3s" begin="7s" />
+      </ellipse>
+      <ellipse fill="#993300" cx="1640.5" cy="718.5" rx="38.5" ry="17.5">
+        <animate attributeName="opacity" from="0" to="1" end="7s" />
+        <animate attributeName="opacity" from="0" to="1" dur="3s" begin="7s" />
+      </ellipse>
+      <ellipse fill="#993300" cx="1767.5" cy="683.5" rx="38.5" ry="17.5">
+        <animate attributeName="opacity" from="0" to="1" end="7s" />
+        <animate attributeName="opacity" from="0" to="1" dur="3s" begin="7s" />
+      </ellipse>
+    </svg>
+    <a href="escena5.html">Siguiente</a>
+    <br />
+    <a href="escena3.html">Anterior</a>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+.fondo {
+    fill: #00CCFF;
+}
+
+.suelo {
+    fill: #00CC00;
+}
+
+.ropa_diana {
+    fill: #001FFF;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.cabeza {
+    fill: #FFCC99;
+}
+
+.sonrisas {
+    fill: none;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.cara_triste {
+    fill: none;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.ropa_mama {
+    fill: #FF7900;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.falda_mama {
+    fill: #9900FF;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.cabello_abuela {
+    fill: #898989;
+}
+
+.cuerpo_abuela {
+    fill: #CC00FF;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.falda_abuela {
+    fill: #0033FF;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.lentes {
+    fill: none;
+    stroke: #020202;
+    stroke-miterlimit: 10;
+}
+
+.casa {
+    fill: #F4CFBD;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.techo {
+    fill: #FF0000;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.ventanas {
+    fill: #00CCFF;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.puerta {
+    fill: #CC3300;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+}
+
+.nubes {
+    fill: #FCFCFC;
+}
+
+.texto1 {
+    position: absolute;
+    top: 15px;
+    left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: #000000;
+}
+.texto2 {
+    position: absolute;
+    top: 15px;
+    left: 15%;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    font-size: 22px;
+    color: #000000;
+}
+.texto3 {
+    position: absolute;
+    top: 15px;
+    left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: #000000;
+}
+.texto4{
+    position: absolute;
+    top: 15px;
+    left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: #000000;
+}
+.texto5{
+    position: absolute;
+    top: 15px;
+    left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: #000000;
+}
+    

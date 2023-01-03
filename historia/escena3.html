@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escena 3</title>
+  </head>
+
+  <body>
+   <p> Para poder pasar, Diana debía completar 3 encargos, el primero es bajar a un gatito de un árbol, 
+      el segundo es quitar las ramas de la carretera y el ultimo, era plantar unas semillas que el señor entregó a Diana. 
+      Ella sin más preámbulos empezó con los encargos.</p>
+    <svg width="100%" height="100vh">
+      <g id="Fondo">
+        <linearGradient id="sueloo">
+          <stop offset="0" style="stop-color: #00ff00" />
+          <stop offset="0.8" style="stop-color: #0b2e00" />
+        </linearGradient>
+        <rect id="suelo" y="2" fill="url(#sueloo)" width="1920" height="1078" />
+        <rect id="camino" y="713" fill="#6B6B6B" width="1920" height="294" />
+      </g>
+      <g id="Diana">
+        <polygon
+          id="ropa"
+          fill="#001FFF"
+          points="169.8,740.6 70.5,912.6 269,912.6"
+        />
+        <g id="cara">
+          <circle fill="#FFCC99" cx="169.8" cy="713.4" r="66.4" />
+        </g>
+        <ellipse id="ojo" cx="146.1" cy="698" rx="4.7" ry="10.7" />
+        <ellipse id="ojo" cx="193.5" cy="698" rx="4.7" ry="10.7" />
+        <path
+          id="triste"
+          fill="none"
+          stroke="#000000"
+          stroke-miterlimit="10"
+          d="M125.9,752.4L125.9,752.4c26-14.6,57.5-15.6,84.4-2.7l5.5,2.7"
+        />
+
+        <g id="pies">
+          <rect id="pierna" x="142" y="912.6" width="9" height="46.4" />
+          <rect id="pierna" x="188.5" y="912.6" width="9" height="46.4" />
+          <rect id="pie" x="188.5" y="948.7" width="23.2" height="10.3" />
+          <rect id="pie" x="127.9" y="948.7" width="23.2" height="10.3" />
+        </g>
+
+        <path
+          id="cabello"
+          d="M169.8,647c0,0-90.9-5.2-66.4,132.8 C103.4,779.8,111.1,699.9,169.8,647z"
+        />
+        <path
+          id="cabello"
+          d="M170.1,647c0,0,90.9-5.2,66.4,132.8 C236.5,779.8,228.8,699.9,170.1,647z"
+        />
+
+        <rect
+          id="bolso"
+          x="184.4"
+          y="813.2"
+          fill="#FF0BF9"
+          width="87.5"
+          height="47.4"
+        />
+        <rect id="cierre" x="184.4" y="827.7" width="87.5" height="3.6" />
+        <circle id="boton" cx="228.2" cy="820.4" r="3.6" />
+      </g>
+
+      <g id="señor">
+        <path
+          id="cuerpo"
+          fill="#383838"
+          d="M1544.7,963.3h-216.6v-476c0-9.4,7.6-16.9,16.9-16.9h182.7c9.4,0,16.9,7.6,16.9,16.9V963.3z"
+        />
+        <rect id="cara" x="1378.7" y="523.2" width="120.4" height="120.4" />
+        <rect
+          id="mango"
+          x="1542.8"
+          y="235.1"
+          fill="#6D3100"
+          width="25.5"
+          height="729.5"
+        />
+        <polygon
+          id="hoja"
+          fill="#ADADAD"
+          points="1893,312.9 1568.4,234 1568.4,391.9 	"
+        />
+      </g>
+
+      <g id="Encargo1">
+        <circle fill="#FFFFFF" cx="341" cy="448" r="157">
+          <animate attributeName="opacity" from="0" to="1" dur="3s" />
+        </circle>
+        <g id="arbol">
+          <rect x="405" y="397" fill="#632800" width="28" height="162">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </rect>
+          <circle fill="#00CC33" cx="419.5" cy="400.5" r="49.5">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </circle>
+        </g>
+
+        <g id="cara">
+          <rect x="276" y="416" fill="#FF6600" width="117" height="82">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </rect>
+          <polygon fill="#FF6600" points="303.8,369 276.7,416 331,416">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </polygon>
+          <polygon fill="#FF6600" points="364.8,369 337.7,416 392,416">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </polygon>
+        </g>
+
+        <g id="ojo">
+          <circle fill="#FFFFFF" cx="303" cy="450" r="17">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </circle>
+          <circle fill="#00CCFF" cx="303" cy="450" r="12">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </circle>
+          <circle cx="303" cy="450" r="7">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </circle>
+        </g>
+
+        <g id="ojo">
+          <circle fill="#FFFFFF" cx="363" cy="450" r="17">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </circle>
+          <circle fill="#00CCFF" cx="363" cy="450" r="12">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </circle>
+          <circle cx="363" cy="450" r="7">
+            <animate attributeName="opacity" from="0" to="1" dur="3s" />
+          </circle>
+        </g>
+
+        <polygon id="nariz" points="333,479.8 323,462.5 343,462.5">
+          <animate attributeName="opacity" from="0" to="1" dur="3s" />
+        </polygon>
+      </g>
+
+      <g id="Encargo2">
+        <circle fill="#FFFFFF" cx="731" cy="275" r="157">
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+        </circle>
+        <rect
+          id="calle"
+          x="594"
+          y="217"
+          fill="#6D6D6D"
+          width="275"
+          height="127"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+        </rect>
+        <rect id="rama" x="628" y="260" fill="#722E00" width="6" height="67">
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+        </rect>
+        <rect id="rama" x="692" y="246" fill="#722E00" width="69" height="7">
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+        </rect>
+        <polygon
+          id="rama"
+          fill="#722E00"
+          points="817,267 806,267 783,328 794,328"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+        </polygon>
+        <polygon
+          id="rama"
+          fill="#722E00"
+          points="761,323 687,306 687,294 761,311"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="3s" />
+        </polygon>
+      </g>
+
+      <g id="Encargo3">
+        <circle fill="#FFFFFF" cx="1157" cy="383" r="157">
+          <animate attributeName="opacity" from="0" to="1" end="6s" />
+        </circle>
+        <rect
+          id="suelo"
+          x="1033"
+          y="389"
+          fill="#009900"
+          width="248"
+          height="90"
+        >
+          <animate attributeName="opacity" from="0" to="1" end="6s" />
+        </rect>
+        <ellipse id="hueco" fill="#993300" cx="1157" cy="414" rx="26.5" ry="13">
+          <animate attributeName="opacity" from="0" to="1" end="6s" />
+        </ellipse>
+        <ellipse id="hueco" fill="#993300" cx="1078" cy="426" rx="26.5" ry="13">
+          <animate attributeName="opacity" from="0" to="1" end="6s" />
+        </ellipse>
+        <ellipse id="hueco" fill="#993300" cx="1232" cy="434" rx="26" ry="13">
+          <animate attributeName="opacity" from="0" to="1" end="6s" />
+        </ellipse>
+      </g>
+    </svg>
+       <br>
+    <a href="escena4.html">Siguiente</a>
+    <br />
+    <a href="escena2.html">Anterior</a>
+  </body>
+</html>
